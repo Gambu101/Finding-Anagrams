@@ -8,8 +8,8 @@ def find_anagram(firstWord = "", secondWord = ""):
     # [assignment] Add your code here
     firstWord = input("Enter a word: ")
     secondWord = input("Enter a word: ")
-    firstWord.replace(" "," ")
-    secondWord.replace(" "," ")
+    firstWord.replace(" ","")
+    secondWord.replace(" ","")
     firstWord = firstWord.lower()
     secondWord = secondWord.lower()
 
